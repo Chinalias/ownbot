@@ -1,1 +1,2 @@
-# ownbot
+# KNDbotlikesilverbotsytra
+KINGS NEVER DIE
