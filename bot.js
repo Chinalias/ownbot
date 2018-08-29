@@ -62,7 +62,7 @@ client.on("guildMemberAdd", member => {
       var jimp = require('jimp')
       
        
-      const w = ['./20180806_230413.png'];
+      const w = ['./welcome.png'];
       
               let Image = Canvas.Image,
                   canvas = new Canvas(557, 241),
@@ -1606,7 +1606,7 @@ function forEachObject(obj, func) {
     Object.keys(obj).forEach(function (key) { func(key, obj[key]) })
 }
 client.on('guildMemberAdd', member => {
-const channel = member.guild.channels.find("name","chat")
+const channel = member.guild.channels.find("name","welcome")
 if (member.user.bot) return;
 var Canvas = require('canvas-prebuilt')
 var jimp = require('jimp')
